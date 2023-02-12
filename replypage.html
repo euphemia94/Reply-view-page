@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Reply Page</title>
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <style>
+      body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #7649CE;
+        color: #ffffff;
+      }
+      h1 {
+        text-align: center;
+        color: #5F51CC;
+      }
+      form {
+        width: 500px;
+        margin: 0 auto;
+        padding: 50px;
+        background-color: #4759CA;
+        border-radius: 10px;
+      }
+      label {
+        display: block;
+        margin-bottom: 20px;
+        color: #ffffff;
+      }
+      input[type="text"], input[type="email"], textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #2F61C8;
+        color: #ffffff;
+      }
+      input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #ffffff;
+        color: #2F61C8;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Reply Page</h1>
+    <form action="">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name"><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br><br>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message"></textarea><br><br>
+      <input type="submit" value="Submit">
+    </form>
+    <script src="js/sb-admin-2.min.js"></script>
+  </body>
